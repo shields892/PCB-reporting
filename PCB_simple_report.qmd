@@ -1,0 +1,138 @@
+---
+title: |
+  ![](GERG_Logo.png){width=6in}
+  __PCB Analysis Report__
+subtitle: "For: Escambia County Marine Resources Division"
+author: "Report prepared by Dr. Yina Liu and Dr. Michael Shields"
+format: 
+  pdf:
+    documentclass: report
+    geometry: 
+      - top=30mm
+      - left=30mm
+editor: visual
+mainfont: "Times New Roman"
+sansfont: "Times New Roman"
+date: today
+date-format: "MMMM D, YYYY"
+execute: 
+  warning: false
+  message: false
+  echo: false
+toc: true
+params:
+---
+
+\newpage
+
+## Background
+
+Thirty (30) fish samples (intact lionfish) were received under chain of custody on March 27, 2025 at the Geochemical and Environmental Research Group (GERG). Samples were logged in under custody and stored at –20°C until processing. GERG staff removed lionfish spines and skin-on fillets were homogenized before extraction. Surrogates for recovery assessment were added before extraction, and samples were extracted using standard operating procedures with modification to comply with EPA dichloromethane regulations. Extracts were analyzed for PCBs by Gas Chromatography Single Quadrupole Mass Spectrometry using Selected Ion Monitoring (SIM) mode. Results for PCB analyses are reported here.
+
+The concentrations of PCB is reported in ng/g wet weight. The lipid percentage were also calculated on wet weight basis. The highest total PCBs concentrations were found in OR-LF-749 followed by OR-LF-757.
+
+## Analysis Request
+
+### Standard Operating Procedures (SOPs)
+
+**SOP-9807:** Extraction of Biological Tissues for the Analyses of Polynuclear Aromatic Hydrocarbons, Polychlorinated Biphenyls, and Organochlorine Pesticides. Rev. 1 as of October 27, 1998.
+
+**SOP-0205:** Quantitative Determination of Polychlorinated Biphenyls by Gas Chromatography/Mass Spectrometry using the Selected Ion Monitoring (SIM) mode.
+
+**SOP-9415:** Determination of Percent Dry Weight for Biological Tissues. Rev. 1 as of October 24, 1994.
+
+**SOP-9727:** Determination of Percent Lipids in Biological Tissues. Rev. 3 as of June 30, 1998.
+
+### SOP Modifications
+
+**SOP-9807:** Due to EPA's requirements to limit the use and subsequent exposure to dichloromethane (DCM), reduced DCM volumes were utilized during the extraction. The modified method was confirmed to provide comparable results based on assessments using multiple certified reference materials (CRMs).
+
+## Quality Control
+
+### Calibrations for PCBs
+
+The analytes are calculated using an average response factor based on the form:
+
+$$
+\begin{aligned}
+RRF (n) = \frac{Ax \times Cqs}{Aqs \times Cx} \\
+RRF (m) = \frac{Aqs \times Cis}{Ais \times Cqs}
+\end{aligned}
+$$
+
+where:
+
+Ax = the integrated ion abundances of the quantitation ion for the individual analyte,
+
+Aqs = the integrated ion abundance of the quantitation ion for the quantitation standard,
+
+Ais = the integrated ion abundance of the quantitation ion for the internal standard,
+
+Cx = concentration of the individual analyte in the calibration solution (ng/mL),
+
+Cqs = concentration of the quantitation standard in the calibration solution, and
+
+Cqs = concentration of the internal standard in the calibration solution
+
+            Calibration data used in the quantitation of detected analytes met the calibration criteria; no deviations beyond the control limits were observed. All of the continuing calibration standards had average percent deviations less than 15%, and no analyte was greater than 25% deviation.
+
+### Example Calculations for PCBs
+
+The concentration of the target analytes and the recovery of the quantitation standards are calculated using the following equation:
+
+$$
+\begin{aligned}
+Cx = \frac{Ax \times Cqs}{Aqs \times RRF (n)} \\
+Recovery = \frac{Ax \times Cis \times 100}{Ais \times Cqs \times RRF (m)}
+\end{aligned}
+$$
+
+where:
+
+Ax = the integrated ion abundance of the quantitation ion for the individual analyte,
+
+Aqs = the integrated ion abundance of the quantitation ion for the quantitation standard,
+
+Ais = the integrated ion abundance of the quantitation ion for the internal standard,
+
+Cx = concentration of the individual analyte in ng/mL
+
+Cqs = concentration of the quantitation standard in the calibration solution,
+
+Cis = concentration of the internal standard in the calibration solution,
+
+RRF (n) = mean relative response factor for the unlabeled target analyte relative to its quantitation, and
+
+RRF (m) = mean relative response factor for quantitation standard relative to its internal standard.
+
+            The sample concentration is calculated using the equation:
+
+$$
+\begin{aligned}
+conc = x \cdot \frac{df}{wt}
+\end{aligned}
+$$
+
+where:
+
+conc = the concentration of the analyte (ng/g);
+
+x = amount of the analyte as found from solving the linear equation;
+
+df = dilution factor;
+
+wt = the sample weight in grams wet tissue.
+
+## Laboratory Qualifiers
+
+All of the PCB and pesticide data have been qualified based on the project-required reporting limits (RL). Concentrations that were less than the RL are adjusted for sample size and dilution and are qualified “J”, and those analytes not detected are qualified “ND”. Concentrations that exceeded the calibration limits are qualified “EC”. The concentrations that are determined by analyses of a diluted aliquot are qualified “D”. If the quantification of an analyte is interfered with by another analyte due to its high concentration the data will be qualified “I” to denote this interference. Analytes may be found above three times the detection limits in the blank. These may represent contamination in samples that are less than ten times the observed level in the blank. These data are qualified “B” to denote this possible contamination.
+
+## Quality Control (QC) Summary
+
+-   All surrogate recoveries were within the acceptable limits. No further action was necessary.
+
+-   The matrix spike had acceptable recoveries for all PCB. No further action was necessary.
+
+-   The average RPD for the duplicate was 12.7%. No further action was necessary.
+
+-   Recoveries for all measured PCBs in SRM CARP II(standard Reference Material) were within the acceptable range. No further action was necessary.
